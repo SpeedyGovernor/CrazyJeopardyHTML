@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title> Sci 200 </title>
+</head>
+
+<body style = "background-color:peru;">
+	<center> <h2> What is the Moon (Sun, Star, Moon, Asteroid, Meteor, or Satellite.) </h2> </center>
+	<center> <h1> Name: </h1>
+
+	<form>
+		<input type = "text" id = "wordsci200">
+		<input type = "button" value = "Enter" onclick="myfunction()">
+	</form>
+
+	<script>
+		function myfunction() {
+			var name = document.getElementById ("wordsci200").value;
+
+			if (name == "Satellite")
+			{
+				alert("Right answer");
+			}
+
+			else
+			{
+				alert("Wrong answer")
+			}
+		}
+	</script>
+	</center>
+
+</body>
+</html>
