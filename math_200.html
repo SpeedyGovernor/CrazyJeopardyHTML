@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title> Math 200 </title>
+</head>
+
+<body style = "background-color:peru;">
+	<center> <h2> If a triangle has sides 21,28,35 - is it acute, obtuse, or right? </h2> </center>
+	<center> <h1> Answer: </h1>
+
+	<form>
+		<input type = "text" id = "math200">
+		<input type = "button" value = "Enter" onclick="myfunction()">
+	</form>
+
+	<script>
+		function myfunction() {
+			var name = document.getElementById ("math200").value;
+
+			if (name == "right")
+			{
+				alert("Right answer");
+			}
+
+			else
+			{
+				alert("Wrong answer")
+			}
+		}
+	</script>
+
+	</center>
+</body>
+</html>
