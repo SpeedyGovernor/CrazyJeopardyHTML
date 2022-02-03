@@ -8,5 +8,6 @@ Contains:
 Simple and sleek jeapordy system, well organized files for easy customization and creation. 
 Currently contains 9 questions, with a pop-up correct/incorrect notification and a score tracker.
 Easily add more questions, change point system, or even change questions.
+--> Questions branch to view / edit/ add questions.
 
 Enjoy! Please share and star, it really helps and I do appreciate every single one!
