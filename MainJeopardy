@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css"gg />
+</head>
+
+<body>
+<body style= "background-color: Beige">
+  <script src="script.js"></script>
+	<center> <h1 style = "color:royalblue;font-size:300%;"> Jeopardy </h1> </center>
+	<center> <table> 
+		<tr>
+			<th style ="background-color: royalblue;font-size:150%;">Language Arts </th>
+			<th style ="background-color: royalblue;font-size:150%;"> Math </th>
+			<th style ="background-color: royalblue;font-size:150%;"> Science </th>
+		</tr>
+		<tr>
+			<td style ="background-color: goldenrod;font-size:150%;"> <a target = "ques" href="la_300.html">  300 </a> </td>
+			<td style ="background-color: goldenrod;font-size:150%;"> <a target = "ques" href="math_300.html"> 300 </a/></td>
+			<td style ="background-color: goldenrod;font-size:150%;"> <a target = "ques" href="sci_300.html"> 300 </a> </td>
+		</tr>
+		<tr>
+ 			<td style ="background-color: silver;font-size:150%;"> <a target = "ques" href="la_200.html">  200 </a> </td>
+			<td style ="background-color: silver;font-size:150%;"> <a target = "ques" href="math_200.html"> 200 </a></td>
+			<td style ="background-color: silver;font-size:150%;"> <a target = "ques" href="sci_200.html">  200 </a></td>
+		</tr>
+		<tr>
+			<td style ="background-color: sandybrown;font-size:150%;">  <a target = "ques" href="la_100.html"> 100 </a></td>
+			<td style ="background-color: sandybrown;font-size:150%;"> <a target = "ques" href="math_100.html"> 100 </a></td>
+			<td style ="background-color: sandybrown;font-size:150%;"> <a target = "ques" href="sci_100.html">  100 </a></td>
+		</tr>
+	
+	</table></center>
+		</table>
+	
+	 
+	<center>
+	<table style= "background-color:royalblue;"><center>
+	 <tr> 
+	 <th> Score </th>
+	 <th>
+	 <form>	
+	<input type="number" id="score1"/>
+	<input type= "button" value ="Add" onclick="addscore()"/>
+	</form>
+	</th>
+	</tr>
+	<tr> 
+	<td> Total Score : </td>
+	<td id ="total_score"> 0.0  </td>
+	</tr>
+	</table>
+	<br>
+	</center>
+	</center>
+
+	<iframe name="ques"  width = "98%"  height = "300"  style="border:5px solid black;">
+
+	</iframe> 
+
+
+  </body>
+</html> 
