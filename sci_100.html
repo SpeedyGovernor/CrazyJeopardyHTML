@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title> Sci 100 </title>
+</head>
+
+<body style = "background-color:peru;">
+	<center> <h2> What is the fifth planet in the Solar System? </h2> </center>
+	<center> <h1> Answer: </h1>
+
+	<form>
+		<input type = "text" id = "wordsci100">
+		<input type = "button" value = "Enter" onclick="myfunction()">
+	</form>
+
+	<script>
+		function myfunction() {
+			var name = document.getElementById ("wordsci100").value;
+
+			if (name == "Jupiter")
+			{
+				alert("Right answer");
+			}
+
+			else
+			{
+				alert("Wrong answer")
+			}
+		}
+	</script>
+	</center>
+
+</body>
+</html>

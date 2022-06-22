@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title> LA 100 </title>
+</head>
+
+<body style = "background-color:peru;">
+	<center> <h2> Who is the author of Fahrenheit 451  </h2> </center>
+	<center> <h1> Name: </h1></center>
+
+	<form><center>
+		<input type = "text" id = "wordla100">
+		<input type = "button" value = "Enter" onclick="myfunction()">
+	</form></center>
+
+	<script>
+		function myfunction() {
+			var name = document.getElementById ("wordla100").value;
+
+			if (name == "Ray Bradbury")
+			{
+				alert("Right answer");
+			}
+
+			else
+			{
+				alert("Wrong answer")
+			}
+		}
+	</script>
+
+</body>
+</html>
